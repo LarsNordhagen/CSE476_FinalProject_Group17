@@ -11,7 +11,7 @@ an answers JSON file where each entry contains a string under the "output" key.
 
 from __future__ import annotations
 
-from llm import agent_loop
+from llm import run_agent
 
 import json
 from pathlib import Path
@@ -33,12 +33,10 @@ def load_questions(path: Path) -> List[Dict[str, Any]]:
 def build_answers(questions: List[Dict[str, Any]]) -> List[Dict[str, str]]:
     answers = []
     for idx, question in enumerate(questions, start=1):
-        # Example: assume you have an agent loop that produces an answer string.
-        real_answer = agent_loop(question["input"])
-        print(real_answer)
+        real_answer = run_agent(question["input"], "")
+        #print(real_answer)
         answers.append({"output": real_answer})
-        #placeholder_answer = f"Placeholder x answer for question {idx}"
-        #answers.append({"output": placeholder_answer})
+        print(f"Finished question {idx}")
     return answers
 
 
