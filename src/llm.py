@@ -87,7 +87,7 @@ def self_refine(full_answer: str, judge_feedback: str):
 def call_model_chat_completions(prompt: str,
                                 system: str = "You are a helpful assistant. Reply with only the final answer—no explanation.",
                                 model: str = MODEL,
-                                temperature: float = 0.0,
+                                temperature: float = 0.15,
                                 timeout: int = 60) -> dict:
     """
     Calls an OpenAI-style /v1/chat/completions endpoint and returns:
