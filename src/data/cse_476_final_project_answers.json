@@ -3,7 +3,7 @@
     "output": "A. condensation"
   },
   {
-    "output": "Antonella sold goods worth $2500.\n\n- For the first $1000, she earns 30% commission:  \n  $ 1000 \\times 0.30 = 300 $\n\n- For the remaining $1500 (since $2500 - $1000 = $1500), she earns an additional 10% commission:  \n  $ 1500 \\times 0.10 = 150 $\n\n- Total commission:  \n  $ 300 + 150 ="
+    "output": "$700"
   },
   {
     "output": "Warner Bros. Records"

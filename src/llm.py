@@ -59,8 +59,34 @@ def generate_synthetic_context(subtask: str):
 
 # Get the answer using CoT reasoning. Use synthetic context to help
 def use_cot_and_context_injection(subtask: str, context: str):
-    answer = call_model_chat_completions(subtask)['text']
-    return answer
+    prompt = f"""You are solving a question carefully.
+    Question: {subtask}
+    Helpful context:
+    {context}
+    
+   Think carefully step by step about the question, using the helpful context when relevant. Return only the final answer. Do not include any explanation or reasoning."""
+
+    result = call_model_chat_completions(
+        prompt=prompt,
+        system = "You are a helpful reasoning assistant. Think carefully internally, but ouput only the final answer with no explanation."
+    )
+
+    if not result["ok"]:
+        print("Model call failed")
+        
+        print("status:", result["status"])
+        print("error:", result["error"])
+        return "ERROR: model call failed"
+
+
+    if not result["text"]:
+        return "ERROR: empty model response"
+
+
+    return result["text"].strip()
+
+    #answer = call_model_chat_completions(subtask)['text']
+    #return answer
 
 # Choose the best answer as part of self-consistency
 def choose_best(candidates: list[str]):
