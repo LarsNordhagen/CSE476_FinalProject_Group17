@@ -5,6 +5,7 @@
 import os
 import requests
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
 
@@ -105,8 +106,10 @@ def choose_best(candidates: list[str]):
         return best_candidate
         
     # tie break
+    tied_candidates = [c for c, ct in vote_counts.items() if ct == best_votes]
+
     numbered_candidates = "\n".join(
-        f"{i + 1}. {text}" for i, text in enumerate(candidates)
+        f"{i + 1}. {text}" for i, text in enumerate(tied_candidates)
     )
     tie_break_prompt = f"""Select the single best final answer to the same question from the options below. Return only the number of the best option (e.g., 2), with no explanation. Options: {numbered_candidates}"""
     result = call_model_chat_completions(
@@ -114,15 +117,14 @@ def choose_best(candidates: list[str]):
         system="You are an answer quality judge. Return only one option number.",
         temperature=0.0,
     )
-    
+
     if result["ok"] and result["text"]:
-        choice_text = result["text"].strip()
-        digits = "".join(ch for ch in choice_text if ch.isdigit())
-        if digits:
-            idx = int(digits) - 1
-            if 0 <= idx < len(candidates):
-                return candidates[idx]
-    return candidates[0]
+        match = re.search(r"\d+", result["text"].strip())
+        if match:
+            idx = int(match.group()) - 1
+            if 0 <= idx < len(tied_candidates):
+                return tied_candidates[idx]
+    return tied_candidates[0]
 
 # Combine all subanswers into a coherent, full answer
 def combine_subanswers(subanswers: list[str]):
