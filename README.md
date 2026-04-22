@@ -34,3 +34,6 @@ Make sure you are using the Cisco VPN.
 - CoT
 - Self-Refine
 - LLM-as-a-judge
+
+## Total # of LLM calls
+_ calls

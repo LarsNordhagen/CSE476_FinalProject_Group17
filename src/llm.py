@@ -159,9 +159,15 @@ Options:
                 return tied_candidates[idx]
     return tied_candidates[0]
 
-# Combine all subanswers into a coherent, full answer
+# Combine all subanswers into a full answer
 def combine_subanswers(subanswers: list[str]):
-    return subanswers[0]
+    fullAnswer = ""
+    for subanswer in subanswers:
+        fullAnswer += subanswer
+        if (subanswer[-1] != '.'):
+            fullAnswer += '.'
+        fullAnswer += ' '
+    return fullAnswer
 
 # Provides feedback if the answer isn't accurate to the question
 def llm_judge(question: str, answer: str):
