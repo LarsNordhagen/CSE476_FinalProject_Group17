@@ -111,7 +111,10 @@ def choose_best(candidates: list[str]):
     numbered_candidates = "\n".join(
         f"{i + 1}. {text}" for i, text in enumerate(tied_candidates)
     )
-    tie_break_prompt = f"""Select the single best final answer to the same question from the options below. Return only the number of the best option (e.g., 2), with no explanation. Options: {numbered_candidates}"""
+    tie_break_prompt = f"""Select the single best final answer to the same question from the options below. Return only the number of the best option (e.g., 2), with no explanation. 
+    
+Options: 
+{numbered_candidates}"""
     result = call_model_chat_completions(
         prompt=tie_break_prompt,
         system="You are an answer quality judge. Return only one option number.",
@@ -132,7 +135,33 @@ def combine_subanswers(subanswers: list[str]):
 
 # Provides feedback if the answer isn't accurate to the question
 def llm_judge(question: str, answer: str):
-    return "no feedback"
+    prompt = f"""Evaluate whether the answer correctly and sufficiently addresses the question.
+Question:
+{question}
+
+Answer:
+{answer}
+
+Return exactly one of the following:
+1) If the answer is correct and sufficient, return exactly: no feedback
+2) Otherwise, return brief corrective feedback (1-3 sentences) focused on what is wrong or missing."""
+
+    result = call_model_chat_completions(
+        prompt=prompt,
+        system="You are a strict but fair answer-quality judge. Follow the output format exactly.",
+        temperature=0.0,
+    )
+
+    if not result["ok"]:
+        return "Feedback unavailable: model call failed."
+
+    if not result["text"]:
+        return "Feedback unavailable: empty model response."
+
+    feedback = result["text"].strip()
+    if "no feedback" in feedback.lower():
+        return "no feedback"
+    return feedback
 
 # Use self-refine
 def self_refine(full_answer: str, judge_feedback: str):
