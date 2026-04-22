@@ -47,12 +47,42 @@ def run_agent (question: str, past_feedback: str) -> str:
 
 
 # Break up the question into a list of subtasks
-def decompose(question: str):
-    return [question]
+def decompose(question: str) -> list[str]:
+    prompt = f"""Break the following question into smaller sub-questions if it is complex, or return it as-is if it is already simple.
+Return each sub-question on its own line with no numbering or bullet points.
 
-# Determine what type of task this is (e.g. reasoning, math, retrievel, etc.)
-def classify(subtask: str):
-    return "temp_classification"
+Question: {question}"""
+
+    result = call_model_chat_completions(
+        prompt=prompt,
+        system="You are a task decomposition assistant. Return only the sub-questions, one per line.",
+        temperature=0.0,
+    )
+
+    if not result["ok"] or not result["text"]:
+        return [question]
+
+    lines = [line.strip() for line in result["text"].strip().splitlines() if line.strip()]
+    return lines if lines else [question]
+
+
+# Determine what type of task this is (e.g. reasoning, math, factual, etc.)
+def classify(subtask: str) -> str:
+    prompt = f"""Classify the following question into one of these categories: math, factual, commonsense, logical, or other.
+Return only the category name.
+
+Question: {subtask}"""
+
+    result = call_model_chat_completions(
+        prompt=prompt,
+        system="You are a task classifier. Return only one category label.",
+        temperature=0.0,
+    )
+
+    if not result["ok"] or not result["text"]:
+        return "other"
+
+    return result["text"].strip().lower()
 
 # Ask the LLM to provide any context that could be relevent to answering the question
 def generate_synthetic_context(subtask: str):
