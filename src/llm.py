@@ -66,9 +66,15 @@ def use_cot_and_context_injection(subtask: str, context: str):
 def choose_best(candidates: list[str]):
     return candidates[0]
 
-# Combine all subanswers into a coherent, full answer
+# Combine all subanswers into a full answer
 def combine_subanswers(subanswers: list[str]):
-    return subanswers[0]
+    fullAnswer = ""
+    for subanswer in subanswers:
+        fullAnswer += subanswer
+        if (subanswer[-1] != '.'):
+            fullAnswer += '.'
+        fullAnswer += ' '
+    return fullAnswer
 
 # Provides feedback if the answer isn't accurate to the question
 def llm_judge(question: str, answer: str):
