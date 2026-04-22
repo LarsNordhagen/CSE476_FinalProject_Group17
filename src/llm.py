@@ -5,6 +5,7 @@
 import os
 import requests
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
 
@@ -90,7 +91,40 @@ def use_cot_and_context_injection(subtask: str, context: str):
 
 # Choose the best answer as part of self-consistency
 def choose_best(candidates: list[str]):
-    return candidates[0]
+    if not candidates:
+        return "ERROR: no candidates"
+    
+    if len(candidates) == 1:
+        return candidates[0]
+    
+    vote_counts = {}
+    for candidate in candidates:
+        vote_counts[candidate] = vote_counts.get(candidate, 0) + 1
+    best_candidate = max(vote_counts, key=vote_counts.get)
+    best_votes = vote_counts[best_candidate]
+    if list(vote_counts.values()).count(best_votes) == 1:
+        return best_candidate
+        
+    # tie break
+    tied_candidates = [c for c, ct in vote_counts.items() if ct == best_votes]
+
+    numbered_candidates = "\n".join(
+        f"{i + 1}. {text}" for i, text in enumerate(tied_candidates)
+    )
+    tie_break_prompt = f"""Select the single best final answer to the same question from the options below. Return only the number of the best option (e.g., 2), with no explanation. Options: {numbered_candidates}"""
+    result = call_model_chat_completions(
+        prompt=tie_break_prompt,
+        system="You are an answer quality judge. Return only one option number.",
+        temperature=0.0,
+    )
+
+    if result["ok"] and result["text"]:
+        match = re.search(r"\d+", result["text"].strip())
+        if match:
+            idx = int(match.group()) - 1
+            if 0 <= idx < len(tied_candidates):
+                return tied_candidates[idx]
+    return tied_candidates[0]
 
 # Combine all subanswers into a coherent, full answer
 def combine_subanswers(subanswers: list[str]):
