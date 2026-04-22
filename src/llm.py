@@ -86,7 +86,18 @@ Question: {subtask}"""
 
 # Ask the LLM to provide any context that could be relevent to answering the question
 def generate_synthetic_context(subtask: str):
-    return "no context"
+    prompt = f"""Given the following question, generate any relevant facts, knowledge, or context that could be helpful for answering it.
+    Question: {subtask}"""
+    context = call_model_chat_completions(
+        prompt=prompt,
+        system="You are a helpful context generator. Provide any relevant facts, knowledge, or context that could help answer the question.",
+        temperature=0.0,
+    )
+    if not context["ok"]:
+        return "model call failed for context generation"
+    if not context["text"]:
+        return "no context generated"
+    return context["text"].strip()
 
 # Get the answer using CoT reasoning. Use synthetic context to help
 def use_cot_and_context_injection(subtask: str, context: str):
@@ -195,7 +206,21 @@ Return exactly one of the following:
 
 # Use self-refine
 def self_refine(full_answer: str, judge_feedback: str):
-    return full_answer
+    if judge_feedback == 'no feedback':
+        return full_answer
+    prompt = f"""Given the the answer and judge's feedback, refine the answer according to the feedback.
+    Answer: {full_answer} \nFeedback: {judge_feedback}"""
+    full_answer = call_model_chat_completions(
+        prompt=prompt,
+        system = "You are a self refine assistant. Refine the answer according to the feedback, dont't include explanations",
+        temperature=0.0,)
+    if not full_answer['ok']:
+        print('Mode call failed for self refine task')
+    
+    if not full_answer['text']:
+        print('Model returned empty response for self refine task')
+    
+    return full_answer['text'].strip()
 
 
 
