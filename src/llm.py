@@ -14,55 +14,93 @@ API_BASE = os.getenv("API_BASE", "https://openai.rc.asu.edu/v1")
 MODEL    = os.getenv("MODEL_NAME", "qwen3-30b-a3b-instruct-2507") 
 
 def run_agent (question: str, past_feedback: str) -> str:
+    print ("Question: " + question)
 
+    # Decomposition: 1 LLM Call
     subtasks = decompose(question)
+
+    # Limits to 3 subtasks
+    subtasks = subtasks[:3]
+
+    print("Subtasks: ")
+    print(subtasks)
 
     subanswers = []
 
+    # Answering Subtasks: [#ofsubtasks*6] LLM Calls
     for subtask in subtasks:
 
+        # Task classification: 1 LLM Call
         category = classify(subtask)
 
+        print("Category: " + category)
+
+        # Synthetic context generation: 1 LLM Call
         context = generate_synthetic_context(subtask)
+
+        print("Context: " + context)
         
         answer_candidates = []
         self_consistency_count = 3
+        # Self Consistency: 3 LLM Calls
         for i in range(self_consistency_count):
+            # COT + Context Injection: 1 LLM Call
             answer_candidate = use_cot_and_context_injection(subtask, context)
             answer_candidates.append(answer_candidate)
+
+            print("Candidate: " + answer_candidate)
         
+        # Self Consistency: 1 LLM Call
         best_candidate = choose_best(answer_candidates)
         subanswers.append(best_candidate)
+
         print(best_candidate)
     
     full_answer = combine_subanswers(subanswers)
 
+    print("Full Answer: " + full_answer)
+
+    # LLM as a Judge: 1 LLM Call
     judge_feedback = llm_judge(question, full_answer)
 
+    print("Judge Feedback: " + judge_feedback)
+
+    # Self Refine: 1 LLM Call
     refined_answer = self_refine(full_answer, judge_feedback)
+
+    print("Refined Answer: " + refined_answer)
 
     return (refined_answer)[:4900]
 
 
-
-
 # Break up the question into a list of subtasks
 def decompose(question: str) -> list[str]:
-    prompt = f"""Break the following question into smaller sub-questions if it is complex, or return it as-is if it is already simple.
-Return each sub-question on its own line with no numbering or bullet points.
+    prompt = f"""
+Guidelines:
+-Only break up the question into sub-questions if there is multiple questions explicitely asked by the user.
+-Do not add or remove from the question text in any way.
+-Do not remove context or answer choices from the question.
+-Make sure context and answer choices are added to the subquestion.
+-Return each sub-question. Start each subquestion with the '~' character.
+
+Output format:
+~...
+~...
+~...
 
 Question: {question}"""
 
     result = call_model_chat_completions(
         prompt=prompt,
-        system="You are a task decomposition assistant. Return only the sub-questions, one per line.",
+        system="You are a task decomposition assistant. Do not alter the question text in any way. Return only the sub-questions, with the '~' character at the start of each.",
         temperature=0.0,
     )
 
     if not result["ok"] or not result["text"]:
         return [question]
+    print(result['text'])
 
-    lines = [line.strip() for line in result["text"].strip().splitlines() if line.strip()]
+    lines = [line.strip() for line in result["text"].strip().split('~') if line.strip()]
     return lines if lines else [question]
 
 
@@ -212,7 +250,7 @@ def self_refine(full_answer: str, judge_feedback: str):
 def call_model_chat_completions(prompt: str,
                                 system: str = "You are a helpful assistant. Reply with only the final answer—no explanation.",
                                 model: str = MODEL,
-                                temperature: float = 0.15,
+                                temperature: float = 0.2,
                                 timeout: int = 60) -> dict:
     """
     Calls an OpenAI-style /v1/chat/completions endpoint and returns:
@@ -251,3 +289,4 @@ def call_model_chat_completions(prompt: str,
             return {"ok": False, "text": None, "raw": None, "status": status, "error": str(err_text), "headers": hdrs}
     except requests.RequestException as e:
         return {"ok": False, "text": None, "raw": None, "status": -1, "error": str(e), "headers": {}}
+# %%

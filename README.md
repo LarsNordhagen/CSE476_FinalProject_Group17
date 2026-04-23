@@ -36,4 +36,7 @@ Make sure you are using the Cisco VPN.
 - LLM-as-a-judge
 
 ## Total # of LLM calls
-_ calls
+Total LLM Calls: 3 + [#ofsubtasks*6]
+With 1 subtask: 9 LLM calls
+With 2 subtasks: 15 LLM calls
+With 3 subtasks: 21 LLM calls
