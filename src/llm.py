@@ -98,7 +98,7 @@ Question: {question}"""
 
     if not result["ok"] or not result["text"]:
         return [question]
-    print(result['text'])
+    #print(result['text'])
 
     lines = [line.strip() for line in result["text"].strip().split('~') if line.strip()]
     return lines if lines else [question]
