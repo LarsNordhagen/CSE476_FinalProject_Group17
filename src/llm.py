@@ -14,7 +14,7 @@ API_BASE = os.getenv("API_BASE", "https://openai.rc.asu.edu/v1")
 MODEL    = os.getenv("MODEL_NAME", "qwen3-30b-a3b-instruct-2507") 
 
 def run_agent (question: str, past_feedback: str) -> str:
-    print ("Question: " + question)
+    #print ("Question: " + question)
 
     # Decomposition: 1 LLM Call
     subtasks = decompose(question)
@@ -22,8 +22,8 @@ def run_agent (question: str, past_feedback: str) -> str:
     # Limits to 3 subtasks
     subtasks = subtasks[:3]
 
-    print("Subtasks: ")
-    print(subtasks)
+    #print("Subtasks: ")
+    #print(subtasks)
 
     subanswers = []
 
@@ -33,12 +33,12 @@ def run_agent (question: str, past_feedback: str) -> str:
         # Task classification: 1 LLM Call
         category = classify(subtask)
 
-        print("Category: " + category)
+        #print("Category: " + category)
 
         # Synthetic context generation: 1 LLM Call
         context = generate_synthetic_context(subtask)
 
-        print("Context: " + context)
+        #print("Context: " + context)
         
         answer_candidates = []
         self_consistency_count = 3
@@ -48,27 +48,27 @@ def run_agent (question: str, past_feedback: str) -> str:
             answer_candidate = use_cot_and_context_injection(subtask, context)
             answer_candidates.append(answer_candidate)
 
-            print("Candidate: " + answer_candidate)
+            #print("Candidate: " + answer_candidate)
         
         # Self Consistency: 1 LLM Call
         best_candidate = choose_best(answer_candidates)
         subanswers.append(best_candidate)
 
-        print(best_candidate)
+        #print(best_candidate)
     
     full_answer = combine_subanswers(subanswers)
 
-    print("Full Answer: " + full_answer)
+    #print("Full Answer: " + full_answer)
 
     # LLM as a Judge: 1 LLM Call
     judge_feedback = llm_judge(question, full_answer)
 
-    print("Judge Feedback: " + judge_feedback)
+    #print("Judge Feedback: " + judge_feedback)
 
     # Self Refine: 1 LLM Call
     refined_answer = self_refine(full_answer, judge_feedback)
 
-    print("Refined Answer: " + refined_answer)
+    #print("Refined Answer: " + refined_answer)
 
     return (refined_answer)[:4900]
 
