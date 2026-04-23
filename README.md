@@ -5,16 +5,12 @@ open a terminal in the src folder, and run:
 
     python3 generate_answers.py
 
-## Uploading your code
-Make sure to push your code to your own branch rather than pushing to main. Then open a pull request on the github website.
-
 ## .env file
 Create a file called '.env' in the '/src' folder. Inside it put the line
 
     OPENAI_API_KEY="YOUR_KEY"
 
 But replace YOUR_KEY with your actual api key
-
 
 ## pip
 Run the following command to make sure you have the dependencies
@@ -39,4 +35,5 @@ Make sure you are using the Cisco VPN.
 Total LLM Calls: 3 + [#ofsubtasks*6]
 With 1 subtask: 9 LLM calls
 With 2 subtasks: 15 LLM calls
-With 3 subtasks: 21 LLM calls
+
+The number of calls would only exceed 20 LLM calls if there were 3 sub-questions to be answered within a single question.
