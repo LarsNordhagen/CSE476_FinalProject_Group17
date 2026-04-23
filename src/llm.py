@@ -252,7 +252,7 @@ Return exactly one of the following:
 def self_refine(full_answer: str, judge_feedback: str):
     if judge_feedback == 'no feedback':
         return full_answer
-    prompt = f"""Given the the answer and judge's feedback, refine the answer according to the feedback. Only output the final answer.
+    prompt = f"""Given the the answer and judge's feedback, refine the answer according to the feedback.
     Answer: {full_answer} \nFeedback: {judge_feedback}"""
     full_answer = call_model_chat_completions(
         prompt=prompt,
