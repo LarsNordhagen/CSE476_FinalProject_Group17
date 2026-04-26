@@ -9,16 +9,16 @@
     "output": "Warner Bros. Records. "
   },
   {
-    "output": "Jane has already saved $4 per week for 8 weeks, which totals $4 × 8 = $32. She needs $60, so she still needs $60 - $32 = $28. At a rate of $4 per week, the number of additional weeks required is $28 ÷ $4 = 7 weeks. Therefore, Jane needs 7 more weeks to save enough money."
+    "output": "Jane has already saved $4 per week for 8 weeks, which amounts to $4 × 8 = $32. She needs a total of $60, so she still needs $60 - $32 = $28. Since she saves $4 per week, the number of additional weeks required is $28 ÷ $4 = 7 weeks. Therefore, Jane needs 7 more weeks to save enough money."
   },
   {
-    "output": "The exact number of Catholic Victorians cannot be determined from the provided information, as the total population of Victoria is not given."
+    "output": "The question asks for the number of Catholic Victorians, but the provided information only states that 26.7% of Victorians are Catholic. Without the total population of Victoria, the exact number of Catholic Victorians cannot be determined. Therefore, the answer cannot be calculated from the given data."
   },
   {
-    "output": "1939"
+    "output": "1939."
   },
   {
-    "output": "The host of \"Wall of Fame\" is not provided in the given context, and the answer referencing Dennis Miller and Bill Maher is incorrect and unsupported."
+    "output": "The correct host of \"Wall of Fame\" is not provided in the given context, and the answer referencing Dennis Miller and his partnership with Bill Maher is inaccurate and unsupported."
   },
   {
     "output": "7"
@@ -36,7 +36,7 @@
     "output": "The highest reference hospital in all of Poland is the Children's Memorial Health Institute (CMHI)."
   },
   {
-    "output": "No. Bombyx mori does not have a monopoly on silk production. Other organisms such as spiders, beetles, caterpillars, and fleas also produce silk. Historically, wild silk from non-Bombyx mori sources has been used in various cultures, further demonstrating that silk production is not exclusive to Bombyx mori."
+    "output": "No. Bombyx mori does not have a monopoly on silk production. Other organisms, including spiders, beetles, caterpillars, and fleas, also produce silk. Historically, wild silk from non-Bombyx mori sources has been used in various cultures, demonstrating that silk production is not exclusive to Bombyx mori."
   },
   {
     "output": "20 + 80 + 160 = 260. "
@@ -45,10 +45,10 @@
     "output": "840. "
   },
   {
-    "output": "The cake is cut into 8 equal pieces, and the total weight is 20 ounces, so each piece weighs 20 ÷ 8 = 2.5 ounces. Rory and her mom each eat one piece, so 2 pieces are eaten. This leaves 8 − 2 = 6 pieces. The weight of the remaining cake is 6 × 2.5 = 15 ounces."
+    "output": "The cake is cut into 8 equal pieces, and the total weight is 20 ounces. Therefore, each piece weighs 20 ÷ 8 = 2.5 ounces. Rory and her mom each eat one piece, so 2 pieces are consumed. This leaves 8 − 2 = 6 pieces remaining. The weight of the remaining cake is 6 × 2.5 = 15 ounces."
   },
   {
-    "output": "The correct answer is not among the provided options."
+    "output": "(C) None of the above."
   },
   {
     "output": "Napoleon Bonaparte. "
@@ -63,10 +63,10 @@
     "output": "C. There would be nothing left of the chair. "
   },
   {
-    "output": "No. The Louvre's pyramid is made of glass and metal, with the glass panels being 10 millimeters thick. Although this thickness provides significant strength, it does not make the pyramid unbreakable, as 10mm glass can still be broken under sufficient force."
+    "output": "No. The Louvre's pyramid is made of glass and metal, with the glass panels being 10 millimeters thick. While 10mm glass is strong, it is not unbreakable and can be shattered under sufficient force, meaning the pyramid is not unbreakable."
   },
   {
-    "output": "The Rhine Gorge between Bingen and Bonn, a UNESCO World Heritage Site, is renowned for its many quaint and lovely country villages. While the exact number of villages is not specified, the area is characterized by a concentration of picturesque villages along its scenic stretch, reflecting its cultural and historical significance."
+    "output": "The UNESCO World Heritage Site \"Rhine Gorge\" between Bingen and Bonn is described in the passage as containing \"many quaint and lovely country villages.\" While the exact number of villages is not specified, the passage indicates that there are a significant number of such villages along this stretch of the Rhine. Therefore, the question can be answered in context: the Rhine Gorge features numerous country villages, though the precise count is not provided."
   },
   {
     "output": "The board intentionally helped the environment if it deliberately implemented and supported sustainability initiatives with clear environmental goals. Yes. "
@@ -108,7 +108,7 @@
     "output": "300 - 240 = 60 miles. "
   },
   {
-    "output": "Karen earns twice what Lorie earns. Since Lorie earns $10 per hour, Karen earns $20 per hour. Over two days, working 3 hours each day, Karen works a total of 6 hours. Therefore, her total earnings are 6 × $20 = $120."
+    "output": "Karen earns twice what Lorie earns. Since Lorie earns $10 per hour, Karen earns $20 per hour. Over two days, Karen works 3 hours per day, totaling 6 hours. Therefore, Karen earns 6 × $20 = $120."
   },
   {
     "output": "A. to perform repetitive tasks. "
@@ -126,13 +126,13 @@
     "output": "01/28/2017. (D)"
   },
   {
-    "output": "The nationalization of ENEL did not breach EU law, as the European Court of Justice held that the Treaty of Rome did not prohibit such measures. The Court ruled that Mr. Costa could not bring the claim himself, as he lacked standing to challenge the nationalization on the grounds of EU law. However, the Court affirmed the principle that EU law takes precedence over conflicting national laws, establishing a foundational precedent for the supremacy of EU law."
+    "output": "The nationalization of ENEL did not breach EU law, as the European Court of Justice held that the Treaty of Rome did not prohibit such measures. Mr. Costa argued that the nationalization was unlawful under EU law and therefore he should not be required to pay the bill. However, the Court ruled that Costa lacked standing to bring the claim, as he was not directly affected by the nationalization in a way that conferred legal rights under EU law. Nevertheless, the Court affirmed the principle of the supremacy of EU law over conflicting national legislation, establishing that EU law prevails in cases of conflict, even though the specific claim in this case was"
   },
   {
     "output": "Alice: Yellow  \nBob: Blue  \nClaire: White  \nDave: Red  \nEve: Purple. "
   },
   {
-    "output": "There are 6 girls and twice as many boys, so there are 2 × 6 = 12 boys. The total number of kids is 6 + 12 = 18."
+    "output": "There are 6 girls and twice as many boys, so the number of boys is 2 × 6 = 12. The total number of children is 6 + 12 = 18."
   },
   {
     "output": "World War II. "
@@ -141,7 +141,7 @@
     "output": "B. Identify the problem, explore possible solutions, select a solution, and evaluate the solution. "
   },
   {
-    "output": "Jackie is now 2 inches shorter than Anne, who is twice Albert's height. Albert is 36 inches tall, so Anne is 2 × 36 = 72 inches tall. Therefore, Jackie's current height is 72 − 2 = 70 inches. Since Jackie grew 3 inches over the summer, her height before the summer was 70 − 3 = 67 inches."
+    "output": "Jackie is 2 inches shorter than Anne, and Anne is twice as tall as Albert. Since Albert is 36 inches tall, Anne is 2 × 36 = 72 inches tall. Therefore, Jackie is 72 − 2 = 70 inches tall now. Since Jackie grew 3 inches over the summer, her height before the summer was 70 − 3 = 67 inches. Thus, Jackie was 67 inches tall before the summer."
   },
   {
     "output": "$18,000. "
@@ -165,16 +165,16 @@
     "output": "45. "
   },
   {
-    "output": "There are 20 cars in total. Out of these, 12 are automatic and 4 are manual. The remaining cars are semi-automatic:  \n20 - 12 - 4 = 4.  \nThe fraction of semi-automatic cars is 4/20 = 0.2, which is 20%.  \nThus, 20% of the cars are semi-automatic."
+    "output": "There are 20 cars in total. Out of these, 12 are automatic and 4 are manual. The remaining cars are semi-automatic:  \n20 - 12 - 4 = 4.  \nThe fraction of semi-automatic cars is 4/20 = 0.2.  \nConverting to a percentage: 0.2 × 100 = 20%.  \nThus, 20% of the cars are semi-automatic."
   },
   {
-    "output": "The antecedent of the pronoun \"he\" is ambiguous. (C) Ambiguous."
+    "output": "The antecedent of the pronoun \"he\" is ambiguous. It could refer to either the hygienist or the patient. Therefore, the correct answer is (C) Ambiguous."
   },
   {
     "output": "12 + 10 = 22. "
   },
   {
-    "output": "Growing a thicker coat of fur helps the mammal retain body heat, reducing heat loss in cold environments and improving survival during winter months."
+    "output": "Growing a thicker coat of fur helps the mammal retain body heat by providing better insulation against cold temperatures, which is a key adaptation for surviving in colder environments."
   },
   {
     "output": "A. Archaebacteria. "
@@ -183,7 +183,7 @@
     "output": "No. The Coen brothers could not have collaborated with the Brothers Grimm because the Brothers Grimm died in the 19th century, while the Coen brothers were born in the 20th century, making a collaboration impossible due to the significant time gap between their lifetimes."
   },
   {
-    "output": "21"
+    "output": "The question can be answered with the given information. After the first visit, 30% of 120 melons were harvested, which is $ 0.3 \\times 120 = 36 $ melons. This leaves $ 120 - 36 = 84 $ melons. Two weeks later, $ \\frac{3}{4} $ of the remaining 84 melons were ready for harvest: $ \\frac{3}{4} \\times 84 = 63 $. Therefore, the number of melons not ready for harvest is $ 8"
   },
   {
     "output": "Wisconsin. "
@@ -195,7 +195,7 @@
     "output": "Wolfgang Amadeus Mozart. "
   },
   {
-    "output": "18 scoops × (3 potatoes / 2 scoops) = 27 potatoes."
+    "output": "18 scoops ÷ 2 scoops per 3 potatoes = 9 groups of 2 scoops  \n9 × 3 potatoes = 27 potatoes  \n\nGomer ate 27 potatoes."
   },
   {
     "output": "Reducing working hours can initially decrease total output due to less labor input, but if it leads to higher efficiency, reduced burnout, and improved focus, it may maintain or even increase productivity per hour worked. The overall impact depends on the balance between reduced hours and gains in efficiency and employee well-being. "
@@ -204,7 +204,7 @@
     "output": "1/4. "
   },
   {
-    "output": "The singer of \"Cieli di Toscana\" is Andrea Bocelli, who became blind at the age of 12 due to a football accident."
+    "output": "The singer of \"Cieli di Toscana\" is Andrea Bocelli, not Alessandro \"Sandro\" Pizzorno. Andrea Bocelli became blind at the age of 12 due to a football accident."
   },
   {
     "output": "Shen Kuo."
@@ -222,19 +222,19 @@
     "output": "C. a graduated cylinder and a balance. "
   },
   {
-    "output": "255"
+    "output": "65. Adam has 50 points. Betty collected 30% more than Adam, so she has 50 + (0.30 × 50) = 65 points. Tom has 30 points less than Betty, so he has 65 - 30 = 35 points. Marta has 3 times Tom's points, so she has 3 × 35 = 105 points. Adding all points: 50 (Adam) + 65 (Betty) + 35 (Tom) + 105 (Marta"
   },
   {
-    "output": "Грегу звонит строитель, который звонит три раза в день для сна. "
+    "output": "Грегу звонят три раза в день для сна. "
   },
   {
-    "output": "No. The Supreme Court has nine seats, while there have been fifteen UK Prime Ministers since 1952. Since 9 is less than 15, the Supreme Court does not have enough seats to accommodate each Prime Minister, making the answer \"No\" correct."
+    "output": "No. The Supreme Court has nine seats, while there have been fifteen UK Prime Ministers since 1952. Since 9 is less than 15, the Supreme Court does not have enough seats to accommodate each Prime Minister. Therefore, the answer is \"No\" because the number of available seats is insufficient."
   },
   {
-    "output": "Please provide a summary of the article about the 50-year history of the school, including its founding, development, and achievements."
+    "output": "The input is valid Thai text and translates to: \"Please provide a summary of the article about the 50-year history of the school, including its founding, development, and achievements.\" The request asks for a summary covering the school's establishment, progression over time, and notable accomplishments."
   },
   {
-    "output": "25 minutes"
+    "output": "25 minutes."
   },
   {
     "output": "B. muscular movement. "
@@ -243,7 +243,7 @@
     "output": "Rosie O'Donnell. "
   },
   {
-    "output": "Both Spider-Man and Spider-Man in film share the same origin story, character traits, and core identity as Peter Parker, a high school student who gains superpowers after being bitten by a radioactive spider and uses those powers to fight crime while struggling with personal responsibility. "
+    "output": "Both Spider-Man and Spider-Man in film share the same origin story, character traits, and core identity as Peter Parker, a high school student who gains superpowers after being bitten by a radioactive spider and uses those powers to fight crime, driven by the lesson learned from his uncle Ben's death. "
   },
   {
     "output": "D. circulatory system. "
@@ -255,7 +255,7 @@
     "output": "50 + 40 + 80 + 150 = 320. "
   },
   {
-    "output": "5600 pounds"
+    "output": "5600 pounds."
   },
   {
     "output": "(B) black ball. "
@@ -264,13 +264,13 @@
     "output": "$19. "
   },
   {
-    "output": "1989"
+    "output": "February 2, 1989."
   },
   {
     "output": "(A) 04/27/2004. "
   },
   {
-    "output": "No. Even if a goblin shark had limbs, its body structure—designed for swimming, not walking—lack of bipedal adaptation, and extreme weight of around 460 pounds (well beyond the typical 300-pound bike capacity) make riding a bike physically implausible. The hypothetical assumption of limbs does not overcome these fundamental biological and mechanical constraints."
+    "output": "No. Even if a goblin shark somehow had limbs, its body structure—designed for swimming, not walking—lacks the bipedal adaptation necessary for riding a bike. Its extreme weight of approximately 460 pounds far exceeds the typical 300-pound weight limit of a bicycle, making it physically impossible to support the shark's mass on a bike frame. Additionally, the shark’s rigid, cartilaginous skeleton and lack of limbs suited for balance and pedaling render the scenario implausible, regardless of hypothetical limb addition."
   },
   {
     "output": "Simply Red. "
@@ -285,7 +285,7 @@
     "output": "ミュー. "
   },
   {
-    "output": "The 1969 satire novel that Kurt Vonnegut is best known for is *Slaughterhouse-Five*."
+    "output": "The author of *Armageddon in Retrospect* is Kurt Vonnegut, who is best known for his 1969 satire novel *Slaughterhouse-Five*."
   },
   {
     "output": "June 28, 2018. "
@@ -298,5 +298,674 @@
   },
   {
     "output": "Rankine cycle. "
+  },
+  {
+    "output": "Commonwealth of England. "
+  },
+  {
+    "output": "Gertrude starts with *Moby Dick*.  \nAfter the first swap, she gives *Moby Dick* to Harold and receives *The Great Gatsby*.  \nAfter the second swap, she gives *The Great Gatsby* to Clara and receives *Pride and Prejudice*.  \nAfter the third swap, she gives *Pride and Prejudice* to Isaac and receives *The Catcher in the Rye*.  \n\nTherefore, at the end of the semester, Gertrude has **(D) The Catcher in the Rye**."
+  },
+  {
+    "output": "No. A thermonuclear bomb cannot be created from onion chemicals because thermonuclear reactions require specific isotopes of hydrogen—deuterium and tritium—under extreme temperatures and pressures to sustain fusion. While sulfenic acid in onions contains hydrogen atoms, these are part of organic molecules and are not in the form or conditions necessary for nuclear fusion. The hydrogen in biological compounds is not suitable for thermonuclear reactions."
+  },
+  {
+    "output": "< [ ] >. "
+  },
+  {
+    "output": "No. "
+  },
+  {
+    "output": "315"
+  },
+  {
+    "output": "15. "
+  },
+  {
+    "output": "King. "
+  },
+  {
+    "output": "$40"
+  },
+  {
+    "output": "3. "
+  },
+  {
+    "output": "The list of natural monuments in Friesack contains all natural monuments of the Brandenburg town of Friesack and its districts in the district of Havelland. The translation contains an error pertaining to misinterpretation. Please provide the full question and the list of options you'd like me to help with. "
+  },
+  {
+    "output": "160000"
+  },
+  {
+    "output": "Cyclic Defrost"
+  },
+  {
+    "output": "200. The cost of replacing the movies in the series is $6 per movie. A third of 600 movies, which is 200 movies, are in series and cost $6 each. The remaining 400 movies consist of 40% older movies (160 movies) costing $5 each, and the remaining 240 movies costing $10 each. The total cost is calculated as:  \n200 × $6 = $1,200  \n160 × $5 = $800  \n240 × $10 = $"
+  },
+  {
+    "output": "(B) heptagon"
+  },
+  {
+    "output": "No. Petroleum jelly cannot be used as fuel in a car because it is a solid at room temperature and does not vaporize easily, which is essential for combustion in internal combustion engines. Its high molecular weight and chemical stability also prevent it from oxidizing readily, making it unsuitable for burning as fuel."
+  },
+  {
+    "output": "No. Will Durant was a philosophical writer known for works like \"The Story of Philosophy\" and \"The Lessons of History.\" Margaret Mitchell was a novelist, best known for her historical fiction novel \"Gone with the Wind,\" which is not a philosophical work. The two authors differ significantly in genre and focus, and Mitchell should not be categorized as a philosophical writer."
+  },
+  {
+    "output": "Yes. "
+  },
+  {
+    "output": "The First Company Law Directive Article 11 does not require the nullification of a company's incorporation for reasons beyond the fixed list of grounds established by the Court of Justice in Marleasing SA v La Comercial SA, such as lack of cause or fraud."
+  },
+  {
+    "output": "Yes, people with swallowing disorders may need high viscosity drinks, but it depends on their specific condition and swallowing difficulty. Thin liquids like water can be dangerous for people with swallowing disorders because they are difficult to control in the mouth and can enter the airway before the swallowing reflex is triggered, increasing the risk of aspiration and pneumonia. Liquid thickeners are food additives that increase the viscosity of liquids to make them easier and safer to swallow for individuals with dysphagia, a condition that impairs the ability to swallow. They are marketed toward people with difficulty drinking because thickened liquids reduce the risk of aspiration (when liquid enters the airway), improve control during swallowing, and enhance overall safety and comfort during fluid intake. "
+  },
+  {
+    "output": "A fever lasting 25 days is considered prolonged and warrants immediate medical evaluation. Such a persistent fever may indicate a serious underlying condition, such as an infection (e.g., tuberculosis, typhoid, or viral infections), autoimmune disease, or other systemic illness. Given the duration, hospitalization is often recommended to allow for comprehensive diagnostic testing, including blood work, imaging, and possibly cultures or biopsies, to identify the cause and initiate appropriate treatment. It is crucial to consult a healthcare professional without delay."
+  },
+  {
+    "output": "D. earthworms living underground all year. "
+  },
+  {
+    "output": "No. The Hwasong-15 missile has a range of approximately 8,000 miles, which is far short of the over 12 billion miles that Voyager 2 has traveled into interstellar space. Moreover, the Hwasong-15 is designed for atmospheric and suborbital flight, not for sustained travel through the vacuum of space, making it incapable of reaching Voyager 2 under any realistic scenario."
+  },
+  {
+    "output": "The film directed by Kevin Tent and starring Nina Dobrev, who portrayed Mia Jones, is *Crash Pad*, released on video on demand on September 25, 2017."
+  },
+  {
+    "output": "B. burning coal. "
+  },
+  {
+    "output": "6. "
+  },
+  {
+    "output": "C. No, because ocean water is too salty for plants grown on land. "
+  },
+  {
+    "output": "Yes. Listeria monocytogenes, when present on contaminated lettuce, can cause listeriosis in pregnant women, which is associated with a significant risk of spontaneous abortion."
+  },
+  {
+    "output": "102. 2T + 5 is incorrect.  \nCorrect answer:  \nMonday: 425 letters  \nTuesday: (1/5) × 425 + 17 = 85 + 17 = 102 letters  \nWednesday: 2 × 102 + 5 = 204 + 5 = 209 letters  \nTotal: 425 + 102 + 209 = 736 letters"
+  },
+  {
+    "output": "100. "
+  },
+  {
+    "output": "No. Watching 5 hours of Netflix uses 1 TB (1000 GB) of data, so 10 hours would use 2 TB (2000 GB). A 500 GB USB device can only store 500 GB, which is less than half of the required storage. Therefore, it is insufficient."
+  },
+  {
+    "output": "5000. "
+  },
+  {
+    "output": "90"
+  },
+  {
+    "output": "The individual should follow their moral conscience rather than blindly obey the government, and when the government acts unjustly, individuals have a duty to resist it, even through civil disobedience. Because individuals have a moral duty to follow their conscience, which may conflict with the laws or decisions of a majority-supported government, even if those laws express the voice of the people. Thoreau argues that even a good form of government can be abused or perverted by those in power before the people have the opportunity to act through it, and thus individuals must not blindly obey laws but instead follow their conscience. "
+  },
+  {
+    "output": "Yes. "
+  },
+  {
+    "output": "B. opening a trashcan looking for food. "
+  },
+  {
+    "output": "1987-07-15. "
+  },
+  {
+    "output": "Sikhism. "
+  },
+  {
+    "output": "Spacetime curvature. "
+  },
+  {
+    "output": "The translation contains an error pertaining to misinterpretation. Christoph Nösig is a former Austrian alpine ski racer who specialized in slalom and giant slalom, achieving one World Cup victory in slalom in 1985 and representing Austria in international competitions including the Winter Olympics and FIS Alpine World Ski Championships. Christoph Nösig is a former Austrian football player, not an alpine dancer. The term \"alpine dancer\" appears to be a mistranslation or misinterpretation. "
+  },
+  {
+    "output": "Il Divo. "
+  },
+  {
+    "output": "(C) black ball. "
+  },
+  {
+    "output": "C. The Moon has little water and oxygen. "
+  },
+  {
+    "output": "Syria. "
+  },
+  {
+    "output": "Yes. "
+  },
+  {
+    "output": "周六上午，邻居们把18只粉色气球放在了屋的前面。. 周六上午. "
+  },
+  {
+    "output": "70%"
+  },
+  {
+    "output": "Battle of the Rosebud. "
+  },
+  {
+    "output": "10. "
+  },
+  {
+    "output": "The timing of reversals in Earth's magnetic field. "
+  },
+  {
+    "output": "No. A person with leukophobia, which is an intense fear of the color white, would likely avoid or dislike the flag because it prominently features the color white. Since the flag contains white, it would trigger the fear response in someone with leukophobia, making it unlikely that they would enjoy looking at it."
+  },
+  {
+    "output": "No. Chuck Norris will be 84 years old in 2024, which is less than 90, so he will not be a nonagenarian. The nonagenarian range is 90 to 99 years old."
+  },
+  {
+    "output": "Kofi Annan. "
+  },
+  {
+    "output": "6. "
+  },
+  {
+    "output": "The Berlin Huguenots switched to German in their services as a protest against the occupation of Prussia by Napoleon in 1806–07, reflecting their political and national allegiance to Prussia during a time of foreign domination."
+  },
+  {
+    "output": "No. "
+  },
+  {
+    "output": "D. pull a magnet through the mixture. "
+  },
+  {
+    "output": "A. The boiling point of oxygen is colder than room temperature. "
+  },
+  {
+    "output": "John has 3 large bags, each containing 10 ounces of M&M, so the total weight is:  \n3 × 10 = 30 ounces.  \n\nSince each ounce contains 30 M&M, the total number of M&M is:  \n30 × 30 = 900 M&M.  \n\nIf John puts 10 M&M into each small bag, the number of small bags he can make is:  \n900 ÷ 10 = 90 small bags.  \n\nTherefore, the final answer is 90."
+  },
+  {
+    "output": "The total toys produced by the first four workers in 10 hours is calculated as follows:  \n- Two workers at 6 toys per hour: $2 \\times 6 \\times 10 = 120$ toys  \n- Two workers at 4 toys per hour: $2 \\times 4 \\times 10 = 80$ toys  \nTotal: $120 + 80 = 200$ toys  \n\nSince 400 toys are needed and only 20 are missing, the actual total produced is $400 - 20 = 38"
+  },
+  {
+    "output": "190. "
+  },
+  {
+    "output": "Manzanares River. "
+  },
+  {
+    "output": "The programmer of the Atari Assembler Editor, the cartridge-based development system developed by Shepardson Microsystems and noted for authoring Atari's BASIC, was **Kathleen O'Brien**. Steve Wozniak, a co-founder of Apple, was not involved with Shepardson Microsystems or Atari's BASIC."
+  },
+  {
+    "output": "Branwell Brontë. "
+  },
+  {
+    "output": "Our American Cousin. "
+  },
+  {
+    "output": "Hinduism. "
+  },
+  {
+    "output": "Astérix. "
+  },
+  {
+    "output": "62. "
+  },
+  {
+    "output": "1945. The Distribution of Industry Act 1950 was an Act of Parliament passed in the United Kingdom by the Labour government of Clement Attlee to promote balanced regional development by encouraging the relocation of industries from overcrowded urban areas to less developed regions. "
+  },
+  {
+    "output": "November 20, 1917."
+  },
+  {
+    "output": "The European Parliament and the Council of the European Union were not given authority to designate the agenda. The Commission President holds the exclusive power to set the agenda."
+  },
+  {
+    "output": "[ [ [ [ < { ( ) } ( ) > { ( ) } ] { ( ) } ] ] ] ]. "
+  },
+  {
+    "output": "280. "
+  },
+  {
+    "output": "{ < { } > { ( ) } }. "
+  },
+  {
+    "output": "Approximately 2 million."
+  },
+  {
+    "output": "vaquita. Sea otters weigh between 14 to 45 kilograms (30 to 100 pounds), with males being larger than females. This makes them one of the smallest marine mammals, significantly lighter than most other marine mammals such as seals, sea lions, whales, and dolphins, which often weigh hundreds to thousands of kilograms. The two smallest cetaceans are the vaquita and the harbor porpoise. The vaquita weighs approximately 45 to 55 kilograms and measures 1.2 to 1.5 meters in length. The harbor porpoise weighs around 60 to 70 kilograms and measures 1.4 to 1.9 meters in length. "
+  },
+  {
+    "output": "01/02/2007. (B) 01/02/2007."
+  },
+  {
+    "output": "Yes. Uninsured individuals may decline a CT scan due to the high cost, which can reach up to $5,000 without insurance, while insured individuals are more likely to have coverage or reimbursement, making the scan more affordable and accessible."
+  },
+  {
+    "output": "Claudius."
+  },
+  {
+    "output": "The SVG path element defines a shape composed of two separate subpaths. The first subpath starts at (24.45, 23.22) and draws lines to (30.07, 20.10), (38.16, 23.15), (41.78, 30.00), and back to (31.71, 29.18). The second subpath starts at (31.71, 29.18) and continues to (30.55,. "
+  },
+  {
+    "output": "Gower Peninsula. "
+  },
+  {
+    "output": "6. "
+  },
+  {
+    "output": "Fisherman. "
+  },
+  {
+    "output": "The former Midlothian County Buildings face Parliament Square, High Street, and George IV Bridge in Edinburgh. "
+  },
+  {
+    "output": "300 miles"
+  },
+  {
+    "output": "C. Label all test tubes and bottles correctly. "
+  },
+  {
+    "output": "No. Guitar Hero is a music video game franchise that simulates playing a guitar using a guitar-shaped controller with five colored fret buttons and a strum bar. Players press the colored buttons in rhythm with on-screen notes that scroll toward a target zone, mimicking the actions of playing a real guitar, while strumming up and down to match the music's timing. The game tracks accuracy and timing to score points, creating an interactive and immersive rock music experience. Playing a real guitar involves full-body coordination with independent and precise movements of both hands, requiring accurate finger placement, chord formation, and advanced techniques like string bending, vibrato, hammer-ons, pull-offs, slides, and tapping. In contrast, Guitar Hero uses a simplified, plastic guitar controller with colored buttons that mimic frets and a strum bar, limiting physical interaction to basic button presses and strumming motions without the need for finger dexterity, hand independence, or nuanced techniques. "
+  },
+  {
+    "output": "No. The endowment of Johns Hopkins University, at $6.28 billion, is less than the MBTA's debt of $9 billion, meaning the endowment is insufficient to fully pay off the debt."
+  },
+  {
+    "output": "No. "
+  },
+  {
+    "output": "Mass-energy, through the energy-momentum tensor, curves spacetime as described by Einstein's field equations in general relativity, establishing the fundamental relationship between mass-energy and the geometry of spacetime."
+  },
+  {
+    "output": "20. "
+  },
+  {
+    "output": "oche. "
+  },
+  {
+    "output": "16"
+  },
+  {
+    "output": "3 लड़के, 3 लड़कियाँ, 3 बच्चे. "
+  },
+  {
+    "output": "(E) four. "
+  },
+  {
+    "output": "Stetson ate 2/5 of 60 oranges:  \n(2/5) × 60 = 24 oranges.  \nAt $10 per orange, the value of the oranges he ate is:  \n24 × $10 = $240.  \nTherefore, the total value Stetson gave up is $240."
+  },
+  {
+    "output": "B. renewable."
+  },
+  {
+    "output": "17th anniversary of the establishment of the Bharatiya Janata Party (BJP) was celebrated in 2010. The person most associated with the founding and leadership of the BJP during its formative years is Shyama Prasad Mukherjee, who was a key figure in its establishment. However, the 17th anniversary specifically honors the party's founding in 1980, and the leader most associated with that period is Atal Bihari Vajpayee, who was the party's leader at the time.\n\nFinal answer: Atal Bihari Vajpayee. "
+  },
+  {
+    "output": "16. "
+  },
+  {
+    "output": "Nusretiye Mosque. "
+  },
+  {
+    "output": "You paid a total of $35, which includes half of the $50 bill ($25) and a 20% tip on the entire bill ($10)."
+  },
+  {
+    "output": "B. producers. "
+  },
+  {
+    "output": "Dublin. "
+  },
+  {
+    "output": "D. allowing runoff from agricultural fields. "
+  },
+  {
+    "output": "A. C₂H₆ + 3O₂ → 2CO₂ + 3H₂O. "
+  },
+  {
+    "output": "No. Adrenal fatigue is a term used in alternative medicine to describe a collection of nonspecific symptoms believed to result from impaired adrenal gland function due to chronic stress, though it is not recognized as a legitimate medical diagnosis by mainstream endocrinology. Vitamin C is essential for the synthesis of cortisol and other adrenal hormones, with the adrenal glands storing high levels of the vitamin to meet increased demand during stress. "
+  },
+  {
+    "output": "Major League Soccer. "
+  },
+  {
+    "output": "Carpathia does not rank in terms of population in the EU as it is not a recognized country or administrative division within the European Union. "
+  },
+  {
+    "output": "1596"
+  },
+  {
+    "output": "Temür Khan"
+  },
+  {
+    "output": "Yes. Yes. "
+  },
+  {
+    "output": "Sapsali. "
+  },
+  {
+    "output": "No. "
+  },
+  {
+    "output": "King Henry V of England. "
+  },
+  {
+    "output": "120"
+  },
+  {
+    "output": "The Moselle is a tributary that flows into the Rhine River, which then continues through Germany and ultimately empties into the Netherlands. Therefore, the Moselle does not take the Rhine to Germany; rather, the Rhine flows through Germany and into the Netherlands. The correct answer is the Netherlands."
+  },
+  {
+    "output": "Yes, Edward Snowden could have visited the UNCTAD headquarters in Geneva, Switzerland, as he was stationed there in 2007."
+  },
+  {
+    "output": "triangle (J)"
+  },
+  {
+    "output": "Yes. "
+  },
+  {
+    "output": "No. "
+  },
+  {
+    "output": "No. Naruto did not escape the Temple of Doom because he is not a character in the Indiana Jones series, and the Temple of Doom is not part of the Naruto universe. The two are from entirely different fictional worlds."
+  },
+  {
+    "output": "B. It is released to the surroundings as heat. "
+  },
+  {
+    "output": "Yes. Native Americans often choose to mourn the genocide of their people on Thanksgiving because the holiday's traditional narrative of the 1621 harvest feast obscures the subsequent colonization, forced displacement, and violence that led to the decimation of Indigenous populations, and many view the day as a symbol of loss and resistance rather than celebration. "
+  },
+  {
+    "output": "Free-minded National Association. Radikale Venstre. Radical-Socialist Party. "
+  },
+  {
+    "output": "32. "
+  },
+  {
+    "output": "The total school population is calculated by recognizing that 40% of the students are boys, and this corresponds to 240 boys. To find the total population, divide 240 by 0.4:  \n240 ÷ 0.4 = 600 students.  \nSubtract the number of boys from the total population to find the number of girls:  \n600 - 240 = 360 girls.  \nThus, the number of girls in the school is 360."
+  },
+  {
+    "output": "Yes. Door-to-door advertising is considered inconsiderate during the pandemic because it increases person-to-person contact, violates social distancing guidelines, and contradicts CDC recommendations to limit non-essential interactions and travel."
+  },
+  {
+    "output": "The University of Chicago. "
+  },
+  {
+    "output": "9. "
+  },
+  {
+    "output": "28"
+  },
+  {
+    "output": "4. "
+  },
+  {
+    "output": "Sarah sells a 20-meter rope at $2 per meter:  \n20 × $2 = $40 earned.\n\nShe buys a new 20-meter rope at $1.5 per meter:  \n20 × $1.5 = $30 spent.\n\nLeftover money:  \n$40 − $30 = $10.\n\nThe correct answer is $10."
+  },
+  {
+    "output": "The text appears to be corrupted or improperly encoded, likely due to a character encoding issue. When properly decoded from UTF-8, the original Thai text should be:\n\n\"ขอโทษที่รบกวนคุณ แต่ฉันต้องการความช่วยเหลือ\"\n\nWhich translates to:  \n\"I'm sorry to bother you, but I need help.\"\n\nFinal answer: I'm sorry to bother you, but I need help. "
+  },
+  {
+    "output": "Honda: 1982, Toyota: 1989, Nissan: 1983. "
+  },
+  {
+    "output": "D. contains air pockets. "
+  },
+  {
+    "output": "(B) lovely normal-size spherical green Nigerian exercise ship. "
+  },
+  {
+    "output": "The translation contains an error pertaining to misinterpretation. Potsdamer Platz is a major public square and transportation hub located in the Mitte and Tiergarten districts of Berlin, historically situated at the boundary between East and West Berlin, and became a no-man’s-land during the Cold War due to the Berlin Wall. Potsdamer Platz is a square-like hub in the Berlin districts of Mitte and Tiergarten, situated in the Mitte district between the old city centre in the east and the new western part of Berlin. "
+  },
+  {
+    "output": "D. 75% black, 25% white. "
+  },
+  {
+    "output": "(D) Mermaids. "
+  },
+  {
+    "output": "8. "
+  },
+  {
+    "output": "The question appears to contain a typo or confusion in the word \"ложе\" (lozhe), which means \"bed\" in Russian, but the intended word might have been \"лох\" (lokh), which is not a standard word, or more likely, \"лох\" was meant to be \"ложки\" (spoons), but that doesn't fit the context of loaves. Given the context of \"package\" and \"Julia bought,\" the intended word is likely \"хлеб\" (khleb), meaning \"bread,\" and \"лох\" might be a typo for \"хлеб. "
+  },
+  {
+    "output": "B. Producer -> Consumer -> Decomposer. "
+  },
+  {
+    "output": "12. Die Kosten für eine Kinderkarte variieren je nach Verkehrsverbund, Region und Verkehrsmittel. In der Regel kostet eine Kinderkarte etwa die Hälfte des Erwachsenentarifs, oft zwischen 1,50 € und 5,00 € pro Tag, je nach Region und Angebot. Für genaue Preise ist die jeweilige Verkehrsbehörde oder der Verkehrsverbund zu konsultieren. 120 Euro. "
+  },
+  {
+    "output": "No. The Nazis did not use the hammer and sickle flag; it was a communist symbol, not associated with Nazi Germany. The Nazi flag featured a swastika, and the hammer and sickle was used as an anti-Nazi symbol during World War II."
+  },
+  {
+    "output": "15"
+  },
+  {
+    "output": "C. ethical. "
+  },
+  {
+    "output": "No. A blooming onion requires a large onion to achieve the necessary size and structure for the petal-like slices that define the dish. Shallots are significantly smaller and lack the bulk needed to create the expansive, flower-like appearance. Their size and shape make them unsuitable for the preparation, as they would not provide enough material to form the required petals or maintain structural integrity during frying."
+  },
+  {
+    "output": "Yes. "
+  },
+  {
+    "output": "A. hairs on the back stand up when scared. "
+  },
+  {
+    "output": "Bedřich Smetana. "
+  },
+  {
+    "output": "Alexander Bogdanov. "
+  },
+  {
+    "output": "310"
+  },
+  {
+    "output": "No. The Supreme Court of Canada cannot participate in a Lucha trios match because it is a judicial institution, not a professional wrestling team. While it has nine justices—enough to form three teams of three—the question is clearly hypothetical or humorous in nature, and the Court’s role is confined to interpreting laws, not engaging in athletic or entertainment events. Therefore, despite the numerical possibility, the Court cannot and does not take part in such matches."
+  },
+  {
+    "output": "Goldbach's Weak Conjecture."
+  },
+  {
+    "output": "(B) nothing hill. "
+  },
+  {
+    "output": "Liam Cunningham. "
+  },
+  {
+    "output": "Kuwait. "
+  },
+  {
+    "output": "- **Alice**: *Frankenstein*  \n- **Bob**: *Moby Dick*  \n- **Claire**: *The Fellowship of the Ring*  \n- **Dave**: *The Odyssey*  \n- **Eve**: *The Hound of the Baskervilles*\n\n2. **Bob and Eve swap books**  \n   - Bob gives *Moby Dick* to Eve  \n   - Eve gives *The Hound of the Baskervilles* to Bob  \n   - Now:\n    \n- **Alice**: *Frankenstein*  \n- **Bob**: *The Hound of the Baskervilles*  \n-. "
+  },
+  {
+    "output": "B. endothermic. "
+  },
+  {
+    "output": "The question is answerable. Each ice cube cools the coffee by 13°F and weakens it by 12 mL. To achieve a 65°F decrease, 65 ÷ 13 = 5 ice cubes are needed, resulting in 5 × 12 = 60 mL of weakening from cooling. Adding 15 mL of cream contributes an additional 15 mL of dilution. Therefore, the total weakening is 60 + 15 = 75 mL. The term \"weaker\" is used here as a shorthand for the total volume of dilution effect"
+  },
+  {
+    "output": "Graph Isomorphism Problem, Discrete Logarithm Problem, Integer Factorization Problem, Minimum Circuit Size Problem. "
+  },
+  {
+    "output": "10 pounds. Let the original weight be $ x = 8 $ pounds.  \nAfter increasing by 50%, the weight becomes $ 1.5 \\times 8 = 12 $ pounds.  \nHe then uses a weight 2 pounds lighter: $ 12 - 2 = 10 $ pounds.  \nThus, the weight he now uses is 10 pounds."
+  },
+  {
+    "output": "Fiat Chrysler Automobiles N.V. "
+  },
+  {
+    "output": "No. The Israelis are an ethnic group, not a musical act, so they cannot \"play\" a venue like the Hammerstein Ballroom. Concert venues are used by performers or bands, not by ethnic or national groups. The question appears to misunderstand the nature of the subject."
+  },
+  {
+    "output": "Yes. Since maritime pilots are human beings and COVID-19 can spread among humans through close contact and respiratory droplets, it is possible for maritime pilots to contract the virus, especially in environments where they interact with crew members or port personnel who may be infected."
+  },
+  {
+    "output": "No. The men's shot (16.01 pounds) is more than double the weight of the typical Bengal fox (5 to 9 pounds). "
+  },
+  {
+    "output": "$2.12 × 17 = $36.04 (begonias)  \n$1.85 × 9 = $16.65 (petunias)  \n$2.50 × 12 = $30.00 (matagetas)  \nTotal revenue: $36.04 + $16.65 + $30.00 = $82.69"
+  },
+  {
+    "output": "Tetrahydrofuran (THF). "
+  },
+  {
+    "output": "Hormel Foods Corporation. "
+  },
+  {
+    "output": "100. "
+  },
+  {
+    "output": "Children's television show. "
+  },
+  {
+    "output": "30. "
+  },
+  {
+    "output": "Hitachi. "
+  },
+  {
+    "output": "20. "
+  },
+  {
+    "output": "4. Let’s break it down step by step:\n\n- The customer earned $1 in rewards for every $20 spent. On their $80 trip, they earned $80 ÷ 20 = 4 rewards, so they have $4 in rewards available to use.\n- On the current trip, they used $4 in rewards.\n- The coupon is worth twice the amount of the rewards used: 2 × $4 = $8 off.\n- Total discount = $4 (rewards) + $8 (coupon) = $12.\n- Original total = $43.\n- Final amount paid"
+  },
+  {
+    "output": "16"
+  },
+  {
+    "output": "No. "
+  },
+  {
+    "output": "The Iroquois Confederation dominated the region of present-day upstate New York, including the Finger Lakes region and the Mohawk Valley, as well as parts of southeastern Canada and the Ohio Country. Its influence extended over Algonquian-speaking populations such as the Delaware and Shawnee, as well as the Iroquoian-speaking Mingo, all of whom were under its political and military authority."
+  },
+  {
+    "output": "(A) pink ball. "
+  },
+  {
+    "output": "No. The United States is not the largest exporter of Fair Trade products. In fact, as a developed country, the U.S. is primarily an importer of Fair Trade goods, such as coffee, chocolate, and bananas, rather than a major exporter. The largest exporters of Fair Trade products are typically developing countries in Latin America, Africa, and Asia, where small-scale farmers and producers are certified under Fair Trade standards. These countries export Fair Trade-certified products to developed nations like the U.S., the United Kingdom, and Germany, which are the primary consumer markets. Therefore, the U.S. plays a key role in the Fair Trade"
+  },
+  {
+    "output": "Bow River and Elbow River. "
+  },
+  {
+    "output": "7pm to 10pm. "
+  },
+  {
+    "output": "Syncline."
+  },
+  {
+    "output": "Jacksonville has the third-largest military presence in the United States, making it a major hub for U.S. military operations. The city hosts significant installations including Naval Station Jacksonville, a key U.S. Navy base, as well as facilities supporting the Air Force, Army, and Marine Corps. This extensive military footprint underscores Jacksonville's critical role in national defense."
+  },
+  {
+    "output": "D. They bind to mRNA. "
+  },
+  {
+    "output": "\"Store and forward switching\""
+  },
+  {
+    "output": "Yes."
+  },
+  {
+    "output": "The input is a Thai math word problem involving fractions and quantities. Translating and interpreting it: \"มีน้ำ 1/2 ลิตร แบ่งใส่ขวด ขวดละ 1/8 ลิตร จะได้กี่ขวด?\" translates to \"There is 1/2 liter of water, divided into bottles of 1/8 liter each. How many bottles will be obtained?\"  \nTo solve: Divide 1/2 by 1/8:  \n(1/2) ÷ (1/8) = (1/2) × (8"
+  },
+  {
+    "output": "Henry Lau"
+  },
+  {
+    "output": "$17,500"
+  },
+  {
+    "output": "A dinosaur, specifically a Brontosaurus (now known as Apatosaurus), is on Sinclair Oil's famous logo. "
+  },
+  {
+    "output": "The goals of the IPCC process are to assess scientific, technical, and socio-economic information relevant to understanding climate change, its impacts, and potential response options, and to provide policymakers with comprehensive, objective, and policy-relevant assessments based on the best available science. "
+  },
+  {
+    "output": "Giuseppe Verdi. Gustave III, ou Le bal masqué, Daniel Auber. The opera *A Masked Ball* depicts the historical assassination of King Gustav III of Sweden in 1792. The narrative in the original libretto is largely fictionalized and inaccurate, as it relocates the setting from Stockholm to Boston, changes the characters' identities, and alters the political context to avoid censorship, while retaining the core event of a king being assassinated at a masked ball. "
+  },
+  {
+    "output": "Yes. John Muir likely had increased vitamin D levels due to his frequent exposure to sunlight while exploring nature. "
+  },
+  {
+    "output": "George I. "
+  },
+  {
+    "output": "A. Air is a mixture of gases. "
+  },
+  {
+    "output": "No, it is not possible for all 15 million unemployed people to fit in a single Tiger Stadium. The stadium's capacity is 50,000 people. Dividing 15 million by 50,000 gives 300. Therefore, approximately 300 Tiger Stadiums would be needed to accommodate all 15 million unemployed people, making it impossible for them to fit in one stadium."
+  },
+  {
+    "output": "No. Malcolm X died in 1965, but Unicode was not established until 1991, so it was impossible for him to have used it."
+  },
+  {
+    "output": "The question is a coherent Thai query involving a scenario where a person travels a certain distance at a given speed, and the task is to calculate the time taken. To solve this, use the formula:  \nTime = Distance / Speed.  \nGiven the distance and speed in the problem, substitute the values into the formula to compute the time. The result will provide the travel time in the appropriate unit (e.g., hours or minutes), depending on the units of distance and speed."
+  },
+  {
+    "output": "B. The sea level will rise. "
+  },
+  {
+    "output": "No. "
+  },
+  {
+    "output": "The winner received 3/4 of the votes, so the loser received 1/4 of the votes. With 80 voters, the number of votes the loser received is:\n\n1/4 × 80 = 20\n\nTherefore, the loser received 20 votes."
+  },
+  {
+    "output": "Yes, the Wessel-Datteln Canal runs parallel to the Lippe River. "
+  },
+  {
+    "output": "A. help eliminate body wastes. maintain homeostasis of blood composition and pH. The skin, lungs, and kidneys do not work together to aid in digestion. "
+  },
+  {
+    "output": "D. NaCl + H₂O. "
+  },
+  {
+    "output": "The additional stroke in the uniflow engine is designed to ensure unidirectional steam flow, which minimizes thermal losses by preventing exhaust steam from cooling the cylinder walls and ports, thereby improving efficiency. "
+  },
+  {
+    "output": "12"
+  },
+  {
+    "output": "No. A sesame seed and a wood frog egg are easily distinguishable due to significant differences in size and appearance. Wood frog eggs are typically 2 to 5 inches in diameter and form large, gelatinous masses, whereas sesame seeds are small, flat, and measure only 3 to 4 mm in size. These stark contrasts make it highly unlikely for a sesame seed to be mistaken for a wood frog egg."
+  },
+  {
+    "output": "{ ( ( ) ( { ( < ( ) > ) } ) }. "
+  },
+  {
+    "output": "SEAL Team Six. Hassan Ghul provided the kunya of Osama bin Laden's messenger, which led to the identification of the courier Abu Ahmed al-Kuwaiti, a key breakthrough in the intelligence effort that culminated in Operation Neptune Spear and the death of Osama bin Laden on May 2, 2011. "
+  },
+  {
+    "output": "B. solar. "
+  },
+  {
+    "output": "230英里. "
+  },
+  {
+    "output": "17 × 20 = 340  \nRemaining sneakers: 48 - 17 = 31  \nRevenue from department store: 31 × 25 = 775  \nTotal revenue: 340 + 775 = 1115  \nTotal cost: 576  \nProfit: 1115 - 576 = 539. "
+  },
+  {
+    "output": "C. one that lives under the ground. "
+  },
+  {
+    "output": "Yes. Darth Vader's iron weave helmet, being a sealed, advanced life-support system with high-efficiency filtration, would significantly reduce his potential exposure to the Coronavirus by filtering out airborne viral particles. "
+  },
+  {
+    "output": "Davy Crockett. "
+  },
+  {
+    "output": "Home Guard. "
+  },
+  {
+    "output": "Yes. Aldi charges customers for paper bags to encourage the use of reusable bags and reduce environmental impact. Shopping bags are a good alternative because Aldi requires a deposit for shopping carts, making bags a convenient and cost-free option for customers. "
+  },
+  {
+    "output": "C. people who sell fish from the wild. "
+  },
+  {
+    "output": "The Bhagavad Gita is a foundational text in Indian philosophy and spirituality, revered for its synthesis of diverse paths to liberation—karma yoga (action), jnana yoga (knowledge), and bhakti yoga (devotion). It emphasizes the importance of fulfilling one's duty (dharma) with detachment, inner discipline, and devotion to the divine. Its teachings have profoundly influenced Hindu thought, inspiring ethical conduct, spiritual introspection, and the concept of selfless service. The Gita's universal message of righteousness, self-realization, and the eternal nature of the soul has made it a guiding scripture not only in Hinduism. "
+  },
+  {
+    "output": "Super Mario Land 2: 6 Golden Coins. "
+  },
+  {
+    "output": "8 + 10 + 16 + 8 = 42. "
+  },
+  {
+    "output": "11:00 AM to 12:00 PM."
   }
 ]

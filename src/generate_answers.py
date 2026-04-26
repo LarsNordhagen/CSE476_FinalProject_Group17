@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-INPUT_PATH = Path("./data/cse_476_final_project_test_data_short.json")
+INPUT_PATH = Path("./data/cse_476_final_project_test_data.json")
 OUTPUT_PATH = Path("./data/cse_476_final_project_answers.json")
 
 
@@ -30,12 +30,25 @@ def load_questions(path: Path) -> List[Dict[str, Any]]:
     return data
 
 
-def build_answers(questions: List[Dict[str, Any]]) -> List[Dict[str, str]]:
+def save_answers(path: Path, answers: List[Dict[str, str]]) -> None:
+    with path.open("w", encoding="utf-8") as fp:
+        json.dump(answers, fp, ensure_ascii=False, indent=2)
+
+
+def build_answers(
+    questions: List[Dict[str, Any]], start_index: int = 1
+) -> List[Dict[str, str]]:
+
     answers = []
-    for idx, question in enumerate(questions, start=1):
+
+    if (OUTPUT_PATH.exists()):
+        with OUTPUT_PATH.open("r", encoding="utf-8") as fp:
+            answers = json.load(fp)
+
+    for idx, question in enumerate(questions[start_index - 1 :], start=start_index):
         real_answer = run_agent(question["input"], "")
-        #print(real_answer)
         answers.append({"output": real_answer})
+        save_answers(OUTPUT_PATH, answers)
         print(f"Finished question {idx}")
     return answers
 
@@ -63,10 +76,7 @@ def validate_results(
 
 def main() -> None:
     questions = load_questions(INPUT_PATH)
-    answers = build_answers(questions)
-
-    with OUTPUT_PATH.open("w", encoding='utf-8') as fp:
-        json.dump(answers, fp, ensure_ascii=False, indent=2)
+    answers = build_answers(questions, 290)
 
     with OUTPUT_PATH.open("r", encoding='utf-8') as fp:
         saved_answers = json.load(fp)
