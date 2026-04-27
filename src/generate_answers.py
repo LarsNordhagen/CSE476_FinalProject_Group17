@@ -76,7 +76,7 @@ def validate_results(
 
 def main() -> None:
     questions = load_questions(INPUT_PATH)
-    answers = build_answers(questions, 290)
+    answers = build_answers(questions, 1)
 
     with OUTPUT_PATH.open("r", encoding='utf-8') as fp:
         saved_answers = json.load(fp)

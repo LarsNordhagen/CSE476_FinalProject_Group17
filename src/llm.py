@@ -256,7 +256,7 @@ def self_refine(full_answer: str, judge_feedback: str):
     Answer: {full_answer} \nFeedback: {judge_feedback}"""
     full_answer = call_model_chat_completions(
         prompt=prompt,
-        system = "You are a self refine assistant. Refine the answer according to the feedback, dont't include explanations",
+        system = "You are a self refine assistant. Refine the answer according to the feedback, don't include explanations",
         temperature=0.0,)
     if not full_answer['ok']:
         print('Mode call failed for self refine task')
